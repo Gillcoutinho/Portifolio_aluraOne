@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Portifólio Gill Coutinho</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre Mim</a></li>
+          <li><a href="#experience">Experiência</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    <button id="theme-toggle">☀️🌛</button>
+    
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Gilláine Coutinho</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Sobre Mim</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experiência</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/gillainecc.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Olá, Eu sou a</p>
+        <h1 id="title">Gilláine Coutinho</h1>
+        <script src="maquinaescrever.js"></script>
+        <p class="section__text__p2">Futura Desenvolvedora Frontend </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('GillaineCoutinho.pdf')"
+          >
+            Download CV
+          </button>
+
+        </div>
+        <div id="socials-container">
+          <img
+            src="assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href= 'https://www.linkedin.com/in/gill%C3%A1inecoutinho'"
+          />
+          <img
+            src="assets/github1.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Gillcoutinho'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Saiba mais,</p>
+      <h1 class="title">Sobre Mim</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="assets/gill.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="assets/titulos.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experiência</h3>
+              <p>★17 anos na Área Jurídica, Migrando para TI <br />Desenvolvimento Frontend </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="assets/chapeu-da-graduacao.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Formação em curso</h3>
+              <p>  ★Análise e Desenvolvimento de Sistemas<br />  ★Inglês intermediário <br/> ★Especialização FrontEnd One Oracle Next Education </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p class="discrição">
+              Com 37 anos e 17 de experiência jurídica, trago sólidas habilidades em análise crítica, resolução de problemas e comunicação. Minha transição para TI é motivada pela paixão tecnológica e vontade de aprender. Compreendo complexidades legais e traduzo-as em soluções eficientes de TI. Minha ética de trabalho, adaptabilidade e mentalidade de crescimento asseguram compromisso com a excelência. Ansiosa para contribuir com aprendizado rápido e perspectivas únicas, impulsionando sucesso no setor de TI.
+            </p>
+          </div>
+        </div>
+      </div>
+           
+    </section>
+    <section id="experience">
+      <br><br><br><p class="section__text__p1">Adquirindo</p>
+      <h1 class="title">Conhecimento/Experiência</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Desenvolvedora Frontend</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="assets/estudando.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML <img src="assets/html.png" width="20"></h3> 
+                  <p>Estudando </p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="assets/estudando.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS <img src="assets/css.png" width="20"></h3>
+                  <p>Estudando</p>
+                </div>
+              </article>
+          
+              <article>
+                <img
+                  src="assets/estudando.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript <img src="assets/js.png" width="20"></h3>
+                  <p>Estudando</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/estudando.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma <img src="assets/figma.png" width="20"></h3>
+                  <p>Estudando</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/estudando.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React <img src="assets/react.png" width="20"></h3>
+                  <p>Estudando</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="assets/estudando.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Desenvolvedora FrontEnd <img src="assets/ONE_logo_rgb.png" width="30"></h3>
+                  <p>Estudando</p>
+                </div>
+              </div>
+               </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Meu aprendizado</p>
+      <h1 class="title">Alguns Projetos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/toms.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto Site Tom's Jazz - Créditos OneBit Code</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Gillcoutinho/site_jazz'"
+              >
+                Github
+              </button>
+             
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/imc.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto Calculadora IMC - Créditos para Larissa Kich </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Gillcoutinho/Calculadora_IMC'"
+              >
+                Github
+              </button>
+                            
+
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/relogio.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto Relógio - Créditos para Larissa Kich</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Gillcoutinho/relogio_digital'" 
+              >
+                Github
+              </button>
+                         
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+  </section>
+  <section id="projects">
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="assets/blog.png"
+              alt="Project 4"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Projeto Blog com React - Créditos Tutora Sarah Bortoloti da Inpair</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Gillcoutinho/GithubBlog'"
+            >
+              Github
+            </button>
+           
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="assets/decodificador.png"
+              alt="Project 5"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Projeto Criptografia - Desafio Alura One Oracle</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Gillcoutinho/Criptografia_Alura'"
+            >
+              Github
+            </button>
+                          
+
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="assets/Petlife.png"
+              alt="Project 6"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Projeto PetLife - Créditos OneBit Code</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/Gillcoutinho/Petlife'" 
+            >
+              Github
+            </button>
+                       
+          </div>
+        </div>
+      </div>
+    </div>
+    <p> E muito mais, visite meu Github...</p>
+  </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Entre em </p>
+      <h1 class="title">Contato</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:gillaine_costa@hotmail.com">gillaine_costa@hotmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https:///www.linkedin.com/in/gill%C3%A1inecoutinho">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <section class="contato">
+      <p class="centro">Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p></br>
+  
+      <form id="contatoForm">
+        <div class="campo">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" maxlength="50" placeholder="Nome:"required>
+          <span class="erro" id="erroNome"></span>
+        </div>
+  
+        <div class="campo">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email"placeholder="E-mail:"required>
+          <span class="erro" id="erroEmail"></span>
+        </div>
+  
+        <div class="campo">
+          <label for="assunto">Assunto:</label>
+          <input type="text" id="assunto" name="assunto" maxlength="50" placeholder="Assunto:"required>
+          <span class="erro" id="erroAssunto"></span>
+        </div>
+  
+        <div class="campo">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" maxlength="300" placeholder="Mensagem:" required></textarea>
+          <span class="erro" id="erroMensagem"></span>
+        </div>
+  
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Sobre Mim</a></li>
+            <li><a href="#experience">Experiência</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contatos</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 - Gill Coutinho. Todos os Direitos Reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="scriptcontato.js"></script>
+  </body>
+</html>
